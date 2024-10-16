@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "codepeaks",
+  "risk": "3",
+  "title": "abi.encodePacked() should not be used with dynamic types when passing the result to a hash function such as keccak256()",
+  "issueId": 7,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/7"
+}
