@@ -1,3 +1,4 @@
+## [L-01]
 The `_schedule` function in the `Timelock` contract contains an unreachable code block that results in redundant checks, leading to unnecessary gas consumption. The `require(!isOperation(id))` line, which checks for duplicate operation scheduling, is never reached due to the way the Timelock contract is structured, making it a candidate for removal.
 The `Timelock` contract's `_schedule` function is designed to schedule operations that will be executed after a specified delay. The function performs two checks:
 1. Whether the operation has already been scheduled.
@@ -54,8 +55,7 @@ function _schedule(bytes32 id, uint256 delay) private {
     timestamps[id] = block.timestamp + delay;
 }
 ```
-
-
+## [L-02]
 The `_afterCall` function in the Timelock contract contains unreachable code due to logical constraints. Specifically, the `require(isOperationReady(id))` line, intended to check if an operation is ready for execution, is never reached because the operation ID is removed from the `_liveProposals` set after execution, ensuring the function is not called twice for the same ID. This results in unnecessary gas consumption and a more complex contract.
 
 The `_afterCall` function is used to update the status of an operation after it has been executed. The function is supposed to verify if an operation is ready to be completed by checking the timestamp, ensuring it has passed the required delay. However, the `require(isOperationReady(id))` check is unreachable due to the flow of the contract logic.
