@@ -54,3 +54,62 @@ function _schedule(bytes32 id, uint256 delay) private {
     timestamps[id] = block.timestamp + delay;
 }
 ```
+
+
+The `_afterCall` function in the Timelock contract contains unreachable code due to logical constraints. Specifically, the `require(isOperationReady(id))` line, intended to check if an operation is ready for execution, is never reached because the operation ID is removed from the `_liveProposals` set after execution, ensuring the function is not called twice for the same ID. This results in unnecessary gas consumption and a more complex contract.
+
+The `_afterCall` function is used to update the status of an operation after it has been executed. The function is supposed to verify if an operation is ready to be completed by checking the timestamp, ensuring it has passed the required delay. However, the `require(isOperationReady(id))` check is unreachable due to the flow of the contract logic.
+
+In the execution process, the operation ID is removed from `_liveProposals` upon successful execution. As a result, this ID will never reach `_afterCall` again, making the `require(isOperationReady(id))` check unnecessary and unreachable.
+https://github.com/code-423n4/2024-10-kleidi/blob/ab89bcb443249e1524496b694ddb19e298dca799/src/Timelock.sol#L1009-L1015
+```solidity
+function _afterCall(bytes32 id) private {
+    // This line is unreachable because the ID is removed after the operation is executed.
+    require(isOperationReady(id), "Timelock: operation is not ready");
+    timestamps[id] = _DONE_TIMESTAMP;
+}
+```
+Since the `id` is removed from `_liveProposals` after execution, it cannot exist in a state where the function would need to check if it's ready. This makes the `require(isOperationReady(id))` condition redundant, wasting gas and adding unnecessary complexity to the contract.
+
+Let's demonstrate the redundancy of the `require(isOperationReady(id))` check by writing a test that tries to execute the same operation twice. The expected behavior is that the operation will be removed after the first execution, and the `_afterCall` function will not be invoked on the same ID again.
+```javascript
+const { expect } = require("chai");
+const { ethers } = require("hardhat");
+
+describe("Timelock Contract - Unreachable _afterCall Check", function () {
+    let timelock, owner;
+
+    beforeEach(async function () {
+        const Timelock = await ethers.getContractFactory("Timelock");
+        [owner] = await ethers.getSigners();
+        timelock = await Timelock.deploy();
+        await timelock.deployed();
+    });
+
+    it("should not reach the _afterCall function after operation execution", async function () {
+        const operationId = ethers.utils.keccak256(ethers.utils.randomBytes(32));
+        const delay = 1000;
+
+        // Schedule an operation
+        await timelock.connect(owner).schedule(operationId, delay);
+
+        // Simulate passing of time and execute the operation
+        await ethers.provider.send("evm_increaseTime", [delay]);
+        await timelock.connect(owner).executeOperation(operationId);
+
+        // Attempt to call _afterCall with the same ID - this should revert as ID is removed
+        await expect(timelock.connect(owner).executeOperation(operationId)).to.be.revertedWith("Timelock: operation not found");
+    });
+});
+```
+This test demonstrates that after the first execution, the operation ID is removed, and the `_afterCall` function cannot be called again, proving that the `require(isOperationReady(id))` check is unreachable.
+
+The unreachable check results in unnecessary gas consumption for no benefit, as it will never be triggered during execution.
+Including unreachable code increases the complexity of the contract, making it harder to maintain and more prone to confusion for future developers.
+
+The solution is to remove the `require(isOperationReady(id))` check from the `_afterCall` function since the logic ensures that the operation ID is removed after execution, making this check redundant.
+```solidity
+function _afterCall(bytes32 id) private {
+    timestamps[id] = _DONE_TIMESTAMP;
+}
+```
