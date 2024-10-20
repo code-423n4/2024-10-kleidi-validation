@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "emerald7017",
+  "risk": "2",
+  "title": "The absence of a validation check in the `removeCalldataCheck` function allows any address to be passed as the `contractAddress`, including the timelock's own address or its safe's address.",
+  "issueId": 46,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/46"
+}
