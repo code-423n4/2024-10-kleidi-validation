@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "emerald7017",
+  "risk": "2",
+  "title": "In emergency situations where the contract needs to be paused, some operations may remain executable, leading to unauthorized actions and financial losses.",
+  "issueId": 37,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/37"
+}
