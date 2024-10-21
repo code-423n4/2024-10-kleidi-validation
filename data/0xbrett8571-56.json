@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "`_execute` function allows arbitrary external calls, which could potentially call back into the Timelock contract and modify its state.",
+  "issueId": 56,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/56"
+}
