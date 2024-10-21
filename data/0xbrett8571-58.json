@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "Each iteration of the loop in `executeWhitelistedBatch` makes an external call, potentially allowing malicious contracts to reenter",
+  "issueId": 58,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/58"
+}
