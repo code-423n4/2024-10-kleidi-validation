@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "bareli",
+  "risk": "2",
+  "title": "\"calculateCreate2Address\"  is vulnerable to a birthday attack",
+  "issueId": 57,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/57"
+}
