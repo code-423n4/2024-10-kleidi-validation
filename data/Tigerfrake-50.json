@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Tigerfrake",
+  "risk": "2",
+  "title": "Critical validation bypass in `checkCalldata()` When `Wildcard` is present",
+  "issueId": 50,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/50"
+}
