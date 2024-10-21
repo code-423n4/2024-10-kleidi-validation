@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "Operations may appear active in some parts of the contract while being considered cleaned up in others.",
+  "issueId": 59,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/59"
+}
