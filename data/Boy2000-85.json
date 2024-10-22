@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Boy2000",
+  "risk": "3",
+  "title": "Recovery Spell will OOG if there are too many current safe owners.",
+  "issueId": 85,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/85"
+}
