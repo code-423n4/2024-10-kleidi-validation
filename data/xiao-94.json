@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "xiao",
+  "risk": "2",
+  "title": "The supportsInterface function of the Timelock contract does not comply with ERC721 and ERC1155, destroying composability",
+  "issueId": 94,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/94"
+}
