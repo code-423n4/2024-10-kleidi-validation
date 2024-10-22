@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "bhatmuneeb",
+  "risk": "2",
+  "title": "Improper Handling of Invalid or Reused Signatures in Recovery Process Could Lead to Unauthorized Recovery Execution",
+  "issueId": 75,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/75"
+}
