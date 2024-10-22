@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "bhatmuneeb",
+  "risk": "3",
+  "title": "Unsafe Usage of delegateCall in Multicall Allows Potential Storage Corruption or Reentrancy Attacks",
+  "issueId": 71,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/71"
+}
