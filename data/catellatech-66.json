@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "catellatech",
+  "risk": "2",
+  "title": "Possible loss of funds because the `_execute` function allow valid calls to be made to addresses without code",
+  "issueId": 66,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/66"
+}
