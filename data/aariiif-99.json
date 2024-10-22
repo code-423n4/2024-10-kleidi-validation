@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "aariiif",
+  "risk": "2",
+  "title": "Allowing setting the `minDelay` to the same value without reverting, violates the expected behavior and could lead to unintended consequences.",
+  "issueId": 99,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/99"
+}
