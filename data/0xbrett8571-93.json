@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "Premature cleanup of operations that are still within their valid timeframe. It can result in the cancellation of legitimate, non-expired proposals",
+  "issueId": 93,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/93"
+}
