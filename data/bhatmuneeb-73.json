@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "bhatmuneeb",
+  "risk": "2",
+  "title": "No Fallback or Retry Mechanism if Safe Creation Fails Could Lead to Inconsistent State",
+  "issueId": 73,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/73"
+}
