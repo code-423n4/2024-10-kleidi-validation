@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "bhatmuneeb",
+  "risk": "2",
+  "title": "Improper Validation of Safe Existence Could Lead to Broken Recovery Process",
+  "issueId": 80,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/80"
+}
