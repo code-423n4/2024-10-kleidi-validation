@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "bhatmuneeb",
+  "risk": "2",
+  "title": "Lack of Validation for Recovery Spells Could Introduce Backdoors or Malicious Behavior",
+  "issueId": 72,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/72"
+}
