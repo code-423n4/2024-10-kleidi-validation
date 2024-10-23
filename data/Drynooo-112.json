@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Drynooo",
+  "risk": "3",
+  "title": "There are flaws in the _removeCalldataCheck logic, resulting in data residue. Eventually, there will be unexpected calldata that can be called.",
+  "issueId": 112,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/112"
+}
