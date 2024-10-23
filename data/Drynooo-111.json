@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Drynooo",
+  "risk": "2",
+  "title": "The removeCalldataCheckDatahash function may fail to be called",
+  "issueId": 111,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/111"
+}
