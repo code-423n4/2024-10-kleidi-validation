@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Brene",
+  "risk": "3",
+  "title": "Array Index Mismanagement in Calldata Check Addition",
+  "issueId": 127,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/127"
+}
