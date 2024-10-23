@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Mrxstrange",
+  "risk": "2",
+  "title": "Missing Return Value Check in _revokeRole(HOT_SIGNER_ROLE, deprecatedHotSigner)",
+  "issueId": 121,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/121"
+}
