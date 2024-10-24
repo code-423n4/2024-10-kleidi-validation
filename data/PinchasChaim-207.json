@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "PinchasChaim",
+  "risk": "3",
+  "title": "Potential Reentrancy Vulnerability in executeRecovery Function in RecoverySpell.so",
+  "issueId": 207,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/207"
+}
