@@ -160,7 +160,43 @@ FILE: 2024-10-kleidi/src/Timelock.sol
 
 ##
 
+## [L-] Redundant Guardian Reassignment and Potential Governance Manipulation Risk
+
+In the current implementation, the setGuardian function allows reassigning the same old guardian address as the new guardian, which could lead to unintended behavior or governance inefficiencies. There is no validation to prevent assigning the existing guardian as the new one.
+
+Allowing the same guardian to be assigned might defeat the purpose of role transitions intended to rotate power or responsibility between different addresses.
+
+```solidity
+FILE:2024-10-kleidi/src/Timelock.sol
+
+/// @notice function to grant the guardian to a new address
+    /// resets the pauseStartTime to 0, which unpauses the contract
+    /// @param newGuardian the address of the new guardian
+    function setGuardian(address newGuardian) public onlyTimelock {
+        /// if a new guardian is granted, the contract is automatically unpaused
+        _setPauseTime(0);
+
+        _grantGuardian(newGuardian);
+    }
+
+```
+https://github.com/code-423n4/2024-10-kleidi/blob/ab89bcb443249e1524496b694ddb19e298dca799/src/Timelock.sol#L812-L820
+
+### Recommended Mitigation
+
+Store oldGuardian to any state variable and check newGuardian with old guardian
+
+```solidity
+
+require(oldGuardian != newGuardian , ``Can't be old guardian``);
+
+```
+
+##
+
 ## [L-] 
+
+
 
 
 
