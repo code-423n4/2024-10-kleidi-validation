@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "DCENT09",
+  "risk": "2",
+  "title": "Static Address Assumptions can cause interaction with outdated or incorrect contracts in the future.",
+  "issueId": 189,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/189"
+}
