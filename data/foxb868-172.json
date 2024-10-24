@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "foxb868",
+  "risk": "2",
+  "title": "Race condition where operations can be cleaned up multiple times, breaking core timelock functionality and security assumptions.",
+  "issueId": 172,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/172"
+}
