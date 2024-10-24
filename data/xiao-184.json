@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "xiao",
+  "risk": "2",
+  "title": "Potential Address Collision in create2 Deployment due to Missing chainId in Salt Calculation",
+  "issueId": 184,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/184"
+}
