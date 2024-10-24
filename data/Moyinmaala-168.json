@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Moyinmaala",
+  "risk": "2",
+  "title": "Contracts can be exploited when briefly unpaused during _updatePauseDuration",
+  "issueId": 168,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/168"
+}
