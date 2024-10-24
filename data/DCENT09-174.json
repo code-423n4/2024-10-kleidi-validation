@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "DCENT09",
+  "risk": "3",
+  "title": "Hardcoded salt which can replay attacks across different chains or environments",
+  "issueId": 174,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/174"
+}
