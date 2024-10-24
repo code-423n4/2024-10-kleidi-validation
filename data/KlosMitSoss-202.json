@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "KlosMitSoss",
+  "risk": "2",
+  "title": "Hot signers can drain native funds due to missing `value` validation",
+  "issueId": 202,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/202"
+}
