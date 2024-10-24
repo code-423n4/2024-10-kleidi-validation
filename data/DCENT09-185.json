@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "DCENT09",
+  "risk": "2",
+  "title": "No Rollback/Recovery Mechanism that cause inconsistent system state if deployments fail midway.",
+  "issueId": 185,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/185"
+}
