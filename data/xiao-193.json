@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "xiao",
+  "risk": "2",
+  "title": " Incorrect Handling of Function Selector Extraction in getFunctionSignatur",
+  "issueId": 193,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/193"
+}
