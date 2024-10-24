@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "ihuntpackets",
+  "risk": "3",
+  "title": "Out of Bounds Read in 2024-10-kleidi/blob/ab89bcb443249e1524496b694ddb19e298dca799/src/BytesHelper.sol",
+  "issueId": 176,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/176"
+}
