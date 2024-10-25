@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Signature Replay Attack Possible Due to Missing Nonce in Recovery Authorization Process",
+  "issueId": 244,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/244"
+}
