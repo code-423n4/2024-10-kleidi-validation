@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Fon",
+  "risk": "3",
+  "title": "no check on the call value allows a malicious HOT_SIGNER_ROLE to potentially steal ETH",
+  "issueId": 273,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/273"
+}
