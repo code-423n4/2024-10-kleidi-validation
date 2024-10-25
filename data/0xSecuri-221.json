@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "0xSecuri",
+  "risk": "2",
+  "title": "Out-of-Gas Risk from Gas Gulf in Timelock's Calldata Check Logic",
+  "issueId": 221,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/221"
+}
