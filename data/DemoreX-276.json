@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "DemoreX",
+  "risk": "2",
+  "title": "If the recovery owner is compromised, the wallet can be stolen and drained by the attacker in certain circumstances",
+  "issueId": 276,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/276"
+}
