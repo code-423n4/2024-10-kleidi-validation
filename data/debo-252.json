@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "debo",
+  "risk": "2",
+  "title": "Reliance on block.timestamp for Critical Contract Logic on ConfigurablePause contract",
+  "issueId": 252,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/252"
+}
