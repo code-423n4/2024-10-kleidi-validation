@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "firmanregar",
+  "risk": "3",
+  "title": "Reentrancy in InstanceDeployer.createSystemInstance() Causing Failed Safe Creation Reporting",
+  "issueId": 232,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/232"
+}
