@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Brene",
+  "risk": "2",
+  "title": "Inconsistent Delay Configuration in `RecoverySpell` Contract",
+  "issueId": 223,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/223"
+}
