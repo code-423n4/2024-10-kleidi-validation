@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Fon",
+  "risk": "3",
+  "title": "`Timelock.sol` is vulnerable to ABI smuggling when executing calls to other contracts that take raw bytes as arguments",
+  "issueId": 271,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/271"
+}
