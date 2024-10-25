@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Inefficient gas consumption in `calculateAddress` function due to O(n²) duplicate owner validation, potentially leading to transaction failures for large owner sets",
+  "issueId": 248,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/248"
+}
