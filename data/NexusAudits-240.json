@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Guard's Operation Type Validation Bypass Allows Unauthorized Delegate Calls Through Empty Self-Calls",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/240"
+}
