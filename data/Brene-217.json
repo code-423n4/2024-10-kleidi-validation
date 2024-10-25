@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Brene",
+  "risk": "2",
+  "title": "Address Collision Risks Associated with Hardcoded Salt Values in the SystemDeploy Contract",
+  "issueId": 217,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/217"
+}
