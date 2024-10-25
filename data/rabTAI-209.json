@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "rabTAI",
+  "risk": "2",
+  "title": "Potential Reentrancy Attack in Timelock Execution",
+  "issueId": 209,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/209"
+}
