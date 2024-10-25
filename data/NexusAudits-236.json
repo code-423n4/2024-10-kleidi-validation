@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Incorrect ERC165 implementation in `supportsInterface` function due to multiple overrides",
+  "issueId": 236,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/236"
+}
