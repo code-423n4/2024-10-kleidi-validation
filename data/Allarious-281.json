@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Allarious",
+  "risk": "2",
+  "title": "Once a recovered safe's keys are compromised, other chains can be enforced to change their owners to the compromised ones",
+  "issueId": 281,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/281"
+}
