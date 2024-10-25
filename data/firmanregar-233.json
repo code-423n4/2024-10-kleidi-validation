@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "firmanregar",
+  "risk": "3",
+  "title": "Reentrancy in RecoverySpell.executeRecovery() Leading to Inconsistent Recovery",
+  "issueId": 233,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/233"
+}
