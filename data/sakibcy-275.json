@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "sakibcy",
+  "risk": "3",
+  "title": "On `Timelock.sol` `revokeHotSigner` function should only be called by the timelock or the safe, but it can only be called by the safe.",
+  "issueId": 275,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/275"
+}
