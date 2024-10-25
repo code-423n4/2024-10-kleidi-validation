@@ -1,0 +1,8 @@
+{
+  "contest": 455,
+  "handle": "Brene",
+  "risk": "3",
+  "title": "Insufficient Access Control in `grantRole` and `rovokeRole` Function",
+  "issueId": 211,
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/211"
+}
