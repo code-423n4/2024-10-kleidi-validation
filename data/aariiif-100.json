@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Timelock operations can be executed due to incorrect usage of `expirationPeriod`",
   "issueId": 100,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/100"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/100",
+  "validatedIssueId": 44,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/44"
 }
