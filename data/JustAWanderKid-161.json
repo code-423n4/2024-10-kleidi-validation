@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Missing Validation to Ensure Hot Signers are Safe Owners",
   "issueId": 161,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/161"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/161",
+  "validatedIssueId": 11,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/11"
 }
