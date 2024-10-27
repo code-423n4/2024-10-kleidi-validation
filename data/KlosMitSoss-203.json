@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Calldata checks require an unvalidated byte in between calldata segments which leads to flawed validation",
   "issueId": 203,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/203"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/203",
+  "validatedIssueId": 31,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/31"
 }
