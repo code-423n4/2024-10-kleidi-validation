@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Kleidi's pausing functionality is broken",
   "issueId": 213,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/213"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/213",
+  "validatedIssueId": 28,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/28"
 }
