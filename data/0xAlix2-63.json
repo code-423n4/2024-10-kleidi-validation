@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Recovery spells don't allow the addition or removal of owners, potentially leading to the compromisation of the wallet",
   "issueId": 63,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/63"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/63",
+  "validatedIssueId": 16,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/16"
 }
