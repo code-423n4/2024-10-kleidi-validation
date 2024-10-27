@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Missing whenNotPaused Check in updatePauseDuration Function May Lead to Inconsistent Behavior",
   "issueId": 190,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/190"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/190",
+  "validatedIssueId": 34,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/34"
 }
