@@ -4,5 +4,7 @@
   "risk": "Q",
   "title": "QA Report",
   "issueId": 169,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/169"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/169",
+  "validatedIssueId": 59,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/59"
 }
