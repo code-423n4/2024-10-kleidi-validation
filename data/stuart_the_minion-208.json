@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Unable to create a calldata check immediately adjacent to an existing one",
   "issueId": 208,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/208"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/208",
+  "validatedIssueId": 29,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/29"
 }
