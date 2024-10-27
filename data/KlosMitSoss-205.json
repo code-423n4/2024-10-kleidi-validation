@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`executeRecoverySpell()` can revert due to check in `OwnerManager.swapOwner()` and causes safe to be compromised",
   "issueId": 205,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/205"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/205",
+  "validatedIssueId": 30,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/30"
 }
