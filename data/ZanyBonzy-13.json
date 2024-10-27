@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Contracts cannot be deployed on arbitrum due to missing chainId",
   "issueId": 13,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/13"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/13",
+  "validatedIssueId": 22,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/22"
 }
