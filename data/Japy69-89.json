@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "DoS in pause function due to unbounded loop over proposals",
   "issueId": 89,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/89"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/89",
+  "validatedIssueId": 46,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/46"
 }
