@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Potential DoS Due to Retrieving Large Number of Proposals or Calldatas in Functions that Modify State ",
   "issueId": 159,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/159"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/159",
+  "validatedIssueId": 38,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/38"
 }
