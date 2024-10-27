@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Potential Denial-of-Service (DoS) in Timelock `pause` Function",
   "issueId": 131,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/131"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/131",
+  "validatedIssueId": 41,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/41"
 }
