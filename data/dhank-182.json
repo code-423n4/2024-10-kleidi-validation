@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "UpdateExpirattionPeriod() cannot be execute when the newExpirationPeriod is less than currentExpirationPeriod.",
   "issueId": 182,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/182"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/182",
+  "validatedIssueId": 9,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/9"
 }
