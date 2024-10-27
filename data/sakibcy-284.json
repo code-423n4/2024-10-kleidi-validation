@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The `_updatePauseDuration` function do not check if the contract is unpaused. And no check for if the contract was already paused, reset the pauseStartTime to 0",
   "issueId": 284,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/284"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/284",
+  "validatedIssueId": 7,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/7"
 }
