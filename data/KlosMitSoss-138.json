@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Protection against malicious recovery spells is not sufficient in case of multiple recovery spells",
   "issueId": 138,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/138"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/138",
+  "validatedIssueId": 14,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/14"
 }
