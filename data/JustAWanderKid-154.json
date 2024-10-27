@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Lack of Validation for Recovery Spell Addresses in InstanceDeployer To Ensure They're actually Recovery Spell Contracts, This May Lead to Enabling Non-functional or Malicious Contract/EOA as Safe Modules",
   "issueId": 154,
-  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/154"
+  "issueUrl": "https://github.com/code-423n4/2024-10-kleidi-validation/issues/154",
+  "validatedIssueId": 12,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-10-kleidi-findings/issues/12"
 }
